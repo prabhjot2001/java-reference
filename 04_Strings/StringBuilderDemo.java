@@ -1,3 +1,5 @@
+// StringBuilder is not thread-safe (not synchronized). But it is fast compared to StringBuffer.
+
 
 public class StringBuilderDemo {
 

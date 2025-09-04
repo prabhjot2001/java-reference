@@ -1,3 +1,6 @@
+// StringBuffer is thread-safe (synchronized). Also it is slow compared to StringBuilder.
+// You should use stringBuffer in multi-threaded environment
+
 public class StringBufferDemo{
     public static void main(String... args){
        StringBuffer sb = new StringBuffer("Good");
